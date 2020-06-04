@@ -151,6 +151,7 @@ Refer to: https://cloud.tencent.com/document/product/583/18586
 | auth         |     Optional      | APi auth secret config, reter to [auth](#auth)                                                           |
 | customDomain |     Optional      | Custom API Domain, refer to [customDomain](#customDomain)                                                |
 | isDisabled   |     Optional      | Desable auto create api gateway service, Default: false                                                  |
+| enableCORS   |     Optional      | Indicates whether to enable cross-origin access. TRUE: enable; FALSE: not enable. Default is FALSE.      |
 
 ##### usagePlan
 

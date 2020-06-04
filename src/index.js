@@ -139,6 +139,7 @@ class TencentFramework extends Component {
     apigatewayConf.endpoints = [
       {
         path: '/',
+        enableCORS: apigatewayConf.enableCORS,
         method: 'ANY',
         function: {
           isIntegratedResponse: true,
